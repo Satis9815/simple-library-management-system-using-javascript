@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <hr>
+    <div class="Heading">
+        <h2>Welcome to the iLibrary</h2>
+    </div>
+    <div class="formContent">
+        <form action="#" class="libraryForm" id="libraryForm">
+            <div class="bookNameArea">
+                <span>Book Name:</span>
+                <input type="text" placeholder="Enter the book name" id="bookName">
+            </div>
+            <div class="bookNameArea">
+                <span>Author Name:</span>
+                <input type="text" placeholder="Enter the author name" id="authorName">
+            </div>
+            <div class="submitButton">
+                <button type="submit">Add a book</button>
+            </div>
+        </form>
+    </div>
+    <div class="container" id="container">
+        <div class="header">
+            <h2>Your books display here </h2>
+        </div>
+        <table id="tableData">
+            <thead>
+                <tr>
+                    <th>S.No</th>
+                    <th>Book Name</th>
+                    <th>Author Name</th>
+                    <th>Operations</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+        
+            </tbody>
+        </table>
+    </div>
+ 
+</body>
+<script src="library.js"></script>
+
+</html>
